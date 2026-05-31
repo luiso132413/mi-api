@@ -118,6 +118,6 @@ app.delete('/usuarios/:id', async (req, res) => {
 });
 
 // Iniciar servidor
-app.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Servidor escuchando en http://localhost:${PORT}`);
 });
